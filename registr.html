@@ -1,0 +1,222 @@
+<!doctype html><!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/slide-show.css">
+<title>Логин</title>
+<link rel="icon" href="img/logo.png" type="image/png">
+<style type="text/css">
+
+body {
+	font: 14px/2 'Roboto', sans-serif;
+	letter-spacing: 0.05em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+p {
+	color: #8c97aa;
+	line-height: 28px;
+}
+.lead {
+	line-height: 34px;
+}
+.navbar-brand img {
+	height: 140px;
+	width: 100%;
+}
+a {
+	color: #28b2f9;
+	transition: all 0.3s ease;
+}
+a:hover {
+	color: #222;
+	text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color:#fff;
+}
+.btn {
+	border-radius: 0;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	padding: 13px 30px;
+	text-transform: uppercase;
+}
+.btn-lg {
+	padding: 18px 34px;
+}
+
+.hh {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(5,98,186,0.5) 0%, rgba(5,98,186,0) 100%);
+	z-index: 9;
+}
+
+.nn img {
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.text-top {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+
+.small, small {
+	font-size: 90%;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.gg img{
+transition:all 0.3s ease;
+cursor:pointer;	
+}
+.gg img:hover{
+transform: scale(1.1);
+opacity:0.8;		
+}
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+background-image: url(img/login.jpg);
+background-size: cover;
+background-position:center;
+}
+.container {
+background-color: #f2f2f2;
+border-radius: 5px;
+padding: 20px;
+box-shadow: 0px 0px 10px #888888;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+
+@media(max-width:1200px){
+h1.slide-title{
+font-size:38px !important; 
+} 
+p.slide-subtitle{
+font-size:20px !important; 	
+}
+.section-bg-one{
+background-position:right 0 top -20px !important;	
+}
+.bb{
+margin-top:10px;
+margin-bottom:10px;	
+}
+}
+
+</style>
+
+</head>
+
+<!-- Header -->
+<body> 
+	<div class="position-relative hh">
+  <div class="container-fluid">
+    <div class="row py-1 px-5">
+      <div class="col-12 d-none d-md-block">
+        <div class="d-flex py-2 justify-content-end mx-4 align-items-center"></div>
+      </div>
+      <div class="col-12 pb-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark"> <a class="navbar-brand mr-lg-5" href="index.html"><img src="img/logo.png"></a></nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- login window -->
+
+	<div class="center">
+		<div class="container">
+			<h2.center>Регистрация</h2.center>
+			<form>
+				<label for="username">Электронная почта</label>
+				<input type="text" id="mail" name="mail" placeholder="Enter your email..">
+				<label for="username">Имя пользователя</label>
+				<input type="text" id="username" name="username" placeholder="Enter your username..">
+				<label for="password">Пароль</label>
+				<input type="password" id="password" name="password" placeholder="Enter your password..">
+				<label for="username">Подтвердите пароль</label>
+				<input type="text" id="username" name="username" placeholder="Enter your password..">
+				<button type="submit">Зарегистрироваться</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html> 
+<!-- 
+<form action ="a">
+  <label for="username">Username</label>
+  <input type="text" 
+  id="username"
+  placeholder= "Enter your name">
+<label for="form-pass">Password</label>
+<input type="password"
+id="form-pass"
+class="form-pass" 
+placeholder="Enter your password">
+<span class="pass-icon" id="pass-icon"><img src = 'https://st4.depositphotos.com/27867620/30695/v/1600/depositphotos_306955144-stock-illustration-eye-web-icon-simple-illustration.jpg'
+style="width:20px;height:20px"></span>
+<input type="submit"
+value="Login">
+<link rel='stylesheet' href="index1.css" > 
+</form>
+</div>
+</div>
+
+
+<script>
+   const inputPass = document.
+   getElementsById('form-pass');
+   const iconPass = document.
+   getElementsById('form-icon');
+
+iconPass.addEventListener('click',()=>{
+  if (inputPass.getAttribute('type')
+  ==='password'){
+    inputPass.setAttribute('type','text');
+  }else{
+    inputPass.setAttribute('type','password')
+  }
+});
+-->
+

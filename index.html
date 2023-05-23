@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/slide-show.css">
+<title>Нескучное образование</title>
+<link rel="icon" href="img/logo.png" type="image/png">
+<style type="text/css">
+
+body {
+	font: 14px/2 'Roboto', sans-serif;
+	letter-spacing: 0.05em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+p {
+	color: #8c97aa;
+	line-height: 28px;
+}
+.lead {
+	line-height: 34px;
+}
+.navbar-brand img {
+	height: 140px;
+	width: 100%;
+}
+a {
+	color: #28b2f9;
+	transition: all 0.3s ease;
+}
+a:hover {
+	color: #222;
+	text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color:#fff;
+}
+.btn {
+	border-radius: 0;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	padding: 13px 30px;
+	text-transform: uppercase;
+}
+.btn-lg {
+	padding: 18px 34px;
+}
+.btn-primary {
+	background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+	border-color: #28b2f9;
+}
+.weight-500 {
+	font-weight: 500;
+}
+.social-icons a {
+	margin-right: 15px;
+	color: #999;
+	border: 1px solid rgba(255,255,255,0.5);
+	padding: 19px 20px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.social-icons a:hover {
+	color: #28b2f9;
+}
+.social-icons {
+	padding-top: 32px;
+}
+ul.kk {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+
+}
+ul.kk li {
+	padding-top: 10px;
+}
+ul.kk li a {
+	color: #fff;
+	font-weight: bold;
+}
+.footer-bg h6 {
+	color: #fff;
+}
+.hh {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(5,98,186,0.5) 0%, rgba(5,98,186,0) 100%);
+	z-index: 9;
+}
+
+.section-bg-two {
+	background-image: url(img/blue-snow.png);
+	background-repeat: repeat;
+}
+
+.nn img {
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.text-top {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+.img-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.footer-bg {
+	background-color: #363535;
+}
+.small, small {
+	font-size: 90%;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+h1.slide-title{
+	margin-top: 0; 
+	margin-bottom: 20px; 
+	font-size: 3vw; 
+	font-weight: bold; 
+	color:#fff;	
+}
+p.slide-subtitle{
+	font-size: 1vw; 
+	font-weight: 100; 
+	margin-top: 0; color:#fff;
+}
+.bb{
+	margin-top:50px;
+	margin-bottom:50px;	
+}
+.gg img{
+transition:all 0.3s ease;
+cursor:pointer;	
+}
+.gg img:hover{
+transform: scale(1.1);
+opacity:0.8;		
+}
+@media(max-width:700px){
+.section-bg-one{
+background:none;	
+}
+}
+@media(max-width:998px){
+.navbar-collapse{
+background: linear-gradient(180deg, rgba(5,98,186,0.9) 0%, rgba(5,98,186,0.9) 100%);	
+padding:30px;
+}
+}
+@media(max-width:1200px){
+h1.slide-title{
+font-size:38px !important; 
+} 
+p.slide-subtitle{
+font-size:20px !important; 	
+}
+.section-bg-one{
+background-position:right 0 top -20px !important;	
+}
+.bb{
+margin-top:10px;
+margin-bottom:10px;	
+}
+}
+</style>
+</head>
+<body>
+<div class="position-relative hh">
+  <div class="container-fluid">
+    <div class="row py-1 px-5">
+      <div class="col-12 d-none d-md-block">
+        <div class="d-flex py-2 justify-content-end mx-4 align-items-center">
+          <div class="mr-5 d-flex align-items-center weight-500 text-white"> <i class="lni lni-phone mr-3"></i> 1 (234) 123-45-67 </div>
+          <div class="weight-500"> <i class="lni lni-envelope mr-3 text-white"></i> <a href="mailto:ntBorinEd@yandex.com" class="text-white">ntBorinEd@yandex.com</a> </div>
+        </div>
+      </div>
+      <div class="col-12 pb-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark"> <a class="navbar-brand mr-lg-5" href="#"><img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-md-5 py-4 py-lg-0 lead">
+              <li class="nav-item active"> <a class="nav-link" href="#">О нас  <span class="sr-only">(current)</span></a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Люди </a> </li>
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Материалы </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="#">Лекции </a>
+                 <a class="dropdown-item" href="#">Видеоуроки</a>
+                 <a class="dropdown-item" href="#">Аудиозаписи</a>
+                 <a class="dropdown-item" href="#">Лабораторные работы</a>
+                 <a class="dropdown-item" href="#">Учебные пособия</a>
+                 <a class="dropdown-item" href="#">Книги</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">α βоτ ψας нε πонελ</a> </div>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Контакты </a> </li>
+            </ul>
+            <a href="login.html" class="btn btn-primary shadow-sm rounded-pill">Зарегисрироваться</a> </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container2">
+  <div data-am-fadeshow="next-prev-navigation"> 
+    
+    <input type="radio" name="css-fadeshow" id="slide-1" />
+    <input type="radio" name="css-fadeshow" id="slide-2" />
+    <input type="radio" name="css-fadeshow" id="slide-3" />
+    
+    <!-- Slides -->
+    <div class="fs-slides">
+
+      <div class="fs-slide" style="background-image: url(img/banner-one.jpg);"> 
+   
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title">  Нескучное образование - это сайт для овладевания новыми навыками и получения знаний  </h1>
+          <p class="slide-subtitle"> Всё обучение происходит в увлекательном формате </p>
+        </div>
+      </div>
+      <div class="fs-slide" style="background-image: url(img/banner-two.jpg);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title"> Участвуйте в позновательных лекциях, семинарах и вебинарах </h1>
+          <p class="slide-subtitle"> Обучайтесь в группе и заводите новые знакомства </p>
+        </div>
+      </div>
+      <div class="fs-slide" style="background-image: url(img/banner-three.jpg);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title"> Проходите тесты и контрольные точки для закрепления  </h1>
+          <p class="slide-subtitle"> Обращайтесь за помощью к преподавателям и наставникам </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Quick Navigation -->
+    <div class="fs-quick-nav">
+      <label class="fs-quick-btn" for="slide-1"></label>
+      <label class="fs-quick-btn" for="slide-2"></label>
+      <label class="fs-quick-btn" for="slide-3"></label>
+    </div>
+    
+    <!-- Prev Navigation -->
+    <div class="fs-prev-nav">
+      <label class="fs-prev-btn" for="slide-1"></label>
+      <label class="fs-prev-btn" for="slide-2"></label>
+      <label class="fs-prev-btn" for="slide-3"></label>
+    </div>
+    
+    <!-- Next Navigation -->
+    <div class="fs-next-nav">
+      <label class="fs-next-btn" for="slide-1"></label>
+      <label class="fs-next-btn" for="slide-2"></label>
+      <label class="fs-next-btn" for="slide-3"></label>
+    </div>
+  </div>
+</div>
+
+<div style="height:75vh; margin-bottom:-10px;"></div>
+<div class="section-bg-one">
+  <div class="container py-5">
+    <div class="row py-5 bb align-items-center">
+      <div class="col-md-6 col-12">
+        <h2 class="font-weight-bold mb-4"> Присоедянесь к нам сейчас!</h2>
+        <p class="lead mb-5"> Мы поможем раскрыть ваш потенциал и достичь ваших целей. У нас выполучите качественное образование, комфортную обстановку и доступ к самым современным технологиям обучения. Начните свой путь к успеху прямо сейчас.  </p>
+        <a href="" class="btn btn-primary rounded-pill">Присодениться !</a> </div>
+      <div class="col-md-6 col-12 mt-5 mt-md-0"> <img src="img/joinus.jpg" class="img-fluid"> </div>
+    </div>
+  </div>
+</div>
+
+<!-- Разделы -->
+<div class="bg-light section-bg-two pt-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="mb-2">Изучай больше </h2>
+        <p></p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/books.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Книги</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/video.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Видеоуроки </a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/audio.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Аудиозаписи</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/presentansion.png" class="img-fluid mb-4">
+        <h5><a href="#">Презентации </a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/books-2.jpg" class="img-fluid mb-4">
+        <h5><a href="#"></a>Учебные пособия</h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/image (2).png" class="img-fluid mb-4">
+        <h5><a href="#">Лабораторные работы</a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-bg-three">
+  <div class="container py-5">
+    <div class="row py-5 align-items-center">
+      <div class="col-lg-6">
+        <h2>Свежие материалы </h2>
+      </div>
+      <div class="col-lg-6 text-right"> <a href="" class="lead text-white">View all News &rarr;</a> </div>
+    </div>
+    <div class="row pb-5 news-slider owl-carousel owl-theme">
+      <div> <img src="img/7.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>15 Feb</h5>
+          <p class="lead text-white m-0">Our School is now offering short, certificate courses.</p>
+        </div>
+      </div>
+      <div> <img src="img/8.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>5 Feb</h5>
+          <p class="lead text-white m-0">Consequences of the pandemic for countries.</p>
+        </div>
+      </div>
+      <div> <img src="img/9.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>2 Feb</h5>
+          <p class="lead text-white m-0">Our School plans for the next academic year.</p>
+        </div>
+      </div>
+      <div> <img src="img/7.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>15 Feb</h5>
+          <p class="lead text-white m-0">Our School is now offering short, certificate courses.</p>
+        </div>    
+          </div>
+        <div> <img src="img/8.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>5 Feb</h5>
+          <p class="lead text-white m-0">Consequences of the pandemic for countries.</p>
+        </div>
+      </div>
+      <div> <img src="img/9.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>2 Feb</h5>
+          <p class="lead text-white m-0">Our School plans for the next academic year.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Надо что-то придумать (ЧТО?) Отзывы? 
+<div class="bg-light pp">
+  <div class="container py-5">
+    <div class="row pt-5">
+      <div class="col-12 text-center">
+        <h2 class="mb-5"></h2>
+      </div>
+    </div>
+    <div class="row testi-slider owl-carousel owl-theme pb-5">
+      <div class="col-8 mx-auto to text-center nn"> <img src="ФОТО" class="mb-5">
+        <p class="lead mb-5"> Текст </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Кто?</p>
+      </div>
+      <div class="col-8 mx-auto to text-center nn"> <img src="ФОТО" class="mb-5">
+        <p class="lead mb-5"> Текст </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Кто?</p>
+      </div><div class="col-8 mx-auto to text-center nn"> <img src="ФОТО" class="mb-5">
+        <p class="lead mb-5"> Текст </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Кто?</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- footer -->
+<div class="footer-bg">
+  <div class="container py-5">
+    <div class="row py-5"> </div>
+      <div class="col-lg-8 col-md-12">
+        <div class="row text-white">
+          <div class="col-sm-6 col-12">
+            
+          <div class="col-sm-6 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">Наши соц. сети</h6>
+            <div class="social-icons"> <a href="#"><i class="lni lni-facebook-filled"></i></a> <a href="#"><i class="lni lni-twitter-filled"></i></a> <a href="#"><i class="lni lni-instagram-filled"></i></a> </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-4">
+          
+          <div class="col-sm-4 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">Контакты</h6>
+            <ul class="kk">
+              <li><a href="">Свяжитесь с нами </a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">POLICY</h6>
+            <ul class="kk">
+              <li><a href="">Сообщить об ошибке</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript --> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script> 
+<script>
+$('.news-slider').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+		 500:{
+            items:2
+        },
+        1000:{
+            items:3
+        }    
+    }
+})
+$('.testi-slider').owlCarousel({
+    loop:false,
+    margin:1,
+    nav:false,
+    dots:false,
+    responsive:{
+        100:{
+            items:1
+        }
+    }
+})
+</script>
+
+
+</body>
+</html>
